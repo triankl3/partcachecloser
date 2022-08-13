@@ -1,0 +1,2 @@
+Forked version of PartCache by Xan_TheDragon, ported to wally by 4igz originally. This fork reduces the distance at which parts are cached to prevent raycasts ignoring the parts due to an engine bug.
+Available as a wally package.
