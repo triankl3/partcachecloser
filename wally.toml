@@ -1,8 +1,7 @@
 [package]
-name = "4igz/partcache"
-version = "1.0.1"
-description = "A port of PartCache by Xan_TheDragon to Wally. No modifications made so it can work with FastCast."
+name = "triankl3/partcache"
+version = "1.0.0"
+description = "Forked version of PartCache by Xan_TheDragon, ported to wally by 4igz originally. This fork reduces the distance at which parts are cached to prevent raycasts ignoring the parts due to an engine bug."
 authors = ["Xan_TheDragon"]
 registry = "https://github.com/UpliftGames/wally-index"
-exclude = ["foreman.toml"]
 realm = "shared"

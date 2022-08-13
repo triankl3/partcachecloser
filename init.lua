@@ -43,8 +43,9 @@ export type PartCache = {
 ----------------------- STATIC DATA -----------------------
 -----------------------------------------------------------
 
--- A CFrame that's really far away. Ideally. You are free to change this as needed.
-local CF_REALLY_FAR_AWAY = CFrame.new(0, 10e8, 0)
+-- A CFrame that's really far away. Ideally. NOTE! YOU ARE NOT FREE TO CHANGE THIS READ BELOW
+local CF_REALLY_FAR_AWAY = CFrame.new(0, 10e4, 0) --previously was 10e8, do not change this unless you want some brain pain
+--for some reason cframing away further than this causes raycasts to completely ignore the part after cframing it back, thus the reason of this fork
 
 -- Format params: methodName, ctorName
 local ERR_NOT_INSTANCE =
